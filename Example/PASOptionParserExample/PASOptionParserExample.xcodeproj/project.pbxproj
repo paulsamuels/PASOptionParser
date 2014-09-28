@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA56234119D8943000AD0B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56234019D8943000AD0B20 /* main.m */; };
+		DA56234F19D8944400AD0B20 /* NSString+PASOptionHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56234A19D8944400AD0B20 /* NSString+PASOptionHelpers.m */; };
+		DA56235019D8944400AD0B20 /* PASOption.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56234C19D8944400AD0B20 /* PASOption.m */; };
+		DA56235119D8944400AD0B20 /* PASOptionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56234E19D8944400AD0B20 /* PASOptionParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA56233B19D8943000AD0B20 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA56233D19D8943000AD0B20 /* PASOptionParserExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PASOptionParserExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA56234019D8943000AD0B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA56234919D8944400AD0B20 /* NSString+PASOptionHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PASOptionHelpers.h"; sourceTree = "<group>"; };
+		DA56234A19D8944400AD0B20 /* NSString+PASOptionHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PASOptionHelpers.m"; sourceTree = "<group>"; };
+		DA56234B19D8944400AD0B20 /* PASOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASOption.h; sourceTree = "<group>"; };
+		DA56234C19D8944400AD0B20 /* PASOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASOption.m; sourceTree = "<group>"; };
+		DA56234D19D8944400AD0B20 /* PASOptionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASOptionParser.h; sourceTree = "<group>"; };
+		DA56234E19D8944400AD0B20 /* PASOptionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASOptionParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA56233A19D8943000AD0B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA56233419D8943000AD0B20 = {
+			isa = PBXGroup;
+			children = (
+				DA56233F19D8943000AD0B20 /* PASOptionParserExample */,
+				DA56233E19D8943000AD0B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA56233E19D8943000AD0B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA56233D19D8943000AD0B20 /* PASOptionParserExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA56233F19D8943000AD0B20 /* PASOptionParserExample */ = {
+			isa = PBXGroup;
+			children = (
+				DA56234719D8944400AD0B20 /* Classes */,
+				DA56234019D8943000AD0B20 /* main.m */,
+			);
+			path = PASOptionParserExample;
+			sourceTree = "<group>";
+		};
+		DA56234719D8944400AD0B20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA56234919D8944400AD0B20 /* NSString+PASOptionHelpers.h */,
+				DA56234A19D8944400AD0B20 /* NSString+PASOptionHelpers.m */,
+				DA56234B19D8944400AD0B20 /* PASOption.h */,
+				DA56234C19D8944400AD0B20 /* PASOption.m */,
+				DA56234D19D8944400AD0B20 /* PASOptionParser.h */,
+				DA56234E19D8944400AD0B20 /* PASOptionParser.m */,
+			);
+			name = Classes;
+			path = ../../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA56233C19D8943000AD0B20 /* PASOptionParserExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA56234419D8943000AD0B20 /* Build configuration list for PBXNativeTarget "PASOptionParserExample" */;
+			buildPhases = (
+				DA56233919D8943000AD0B20 /* Sources */,
+				DA56233A19D8943000AD0B20 /* Frameworks */,
+				DA56233B19D8943000AD0B20 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PASOptionParserExample;
+			productName = PASOptionParserExample;
+			productReference = DA56233D19D8943000AD0B20 /* PASOptionParserExample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA56233519D8943000AD0B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Paul Samuels";
+				TargetAttributes = {
+					DA56233C19D8943000AD0B20 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DA56233819D8943000AD0B20 /* Build configuration list for PBXProject "PASOptionParserExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA56233419D8943000AD0B20;
+			productRefGroup = DA56233E19D8943000AD0B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA56233C19D8943000AD0B20 /* PASOptionParserExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA56233919D8943000AD0B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA56234119D8943000AD0B20 /* main.m in Sources */,
+				DA56235019D8944400AD0B20 /* PASOption.m in Sources */,
+				DA56235119D8944400AD0B20 /* PASOptionParser.m in Sources */,
+				DA56234F19D8944400AD0B20 /* NSString+PASOptionHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA56234219D8943000AD0B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA56234319D8943000AD0B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA56234519D8943000AD0B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA56234619D8943000AD0B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA56233819D8943000AD0B20 /* Build configuration list for PBXProject "PASOptionParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA56234219D8943000AD0B20 /* Debug */,
+				DA56234319D8943000AD0B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA56234419D8943000AD0B20 /* Build configuration list for PBXNativeTarget "PASOptionParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA56234519D8943000AD0B20 /* Debug */,
+				DA56234619D8943000AD0B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA56233519D8943000AD0B20 /* Project object */;
+}
