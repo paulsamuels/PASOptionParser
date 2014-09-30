@@ -36,7 +36,9 @@ int main(int argc, const char * argv[]) {
       });
     }
     
-    [optionParser parseWithArgumentCount:argc arguments:argv];
+    NSArray *arguments = [optionParser parseWithArgumentCount:argc arguments:argv];
+		
+    NSLog(@"%@", arguments);
   }
   return 0;
 }

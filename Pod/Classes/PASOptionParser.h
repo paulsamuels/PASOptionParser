@@ -16,6 +16,6 @@
 @property (nonatomic, copy) void (^onCompletion)(NSArray *arguments);
 
 - (void)addOption:(PASOption *)option;
-- (void)parseWithArgumentCount:(NSInteger)count arguments:(const char **)arguments;
+- (NSArray *)parseWithArgumentCount:(NSInteger)count arguments:(const char **)arguments;
 
 @end
