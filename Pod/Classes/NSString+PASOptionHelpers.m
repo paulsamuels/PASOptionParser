@@ -17,7 +17,7 @@
 
 - (BOOL)pas_isShortArgument;
 {
-  return [self hasPrefix:@"-"];
+  return [self hasPrefix:@"-"] && ![self pas_isLongArgument];
 }
 
 - (BOOL)pas_isLongArgument;

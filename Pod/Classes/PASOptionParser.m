@@ -51,7 +51,7 @@
   }
 }
 
-- (void)parseWithArgumentCount:(NSInteger)count arguments:(const char **)arguments;
+- (NSArray *)parseWithArgumentCount:(NSInteger)count arguments:(const char **)arguments;
 {
   PASOption      *unhandledOption      = nil;
   NSMutableArray *collectedArguments   = NSMutableArray.array;
@@ -84,10 +84,10 @@
         [self.options[[strippedFlag substringFromIndex:3]] invokeWithArgument:@NO];
         continue;
       }
-      
+
       if (self.options[input.pas_stringByRemovingArgumentPrefix]) {
         unhandledOption = [self handleOption:self.options[strippedFlag] withArgument:argument];
-      } else {
+      } else if ([input pas_isShortArgument]) {
         unhandledOption = [self handleShortOptions:input withArgument:argument];
       }
     } else {
@@ -104,9 +104,7 @@
     [self notifyIncorrectlyHandledOption:unhandledOption];
   }
   
-  if (self.onCompletion) {
-    self.onCompletion(collectedArguments);
-  }
+  return collectedArguments;
 }
 
 - (PASOption *)handleShortOptions:(NSString *)input withArgument:(NSString *)argument;
